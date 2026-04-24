@@ -5,7 +5,7 @@ import {MovieDetailPage} from '../pages/MovieDetailPage';
 import {HomePage} from "../pages/HomePage";
 
 export const routes = createBrowserRouter([{
-    path: "/octen-react", element: <MainLayout />, children: [
+    path: "/octen-react-test", element: <MainLayout />, children: [
         {path: "", element: <HomePage />},
         {path: "movies", element: <MoviesPage />},
         {path: "movies/:id", element: <MovieDetailPage />},
